@@ -1,0 +1,49 @@
+/*
+*  Wait a second! This is the CSS file. You probably want to be in index.html.
+*  This file lets your web browser know how you want things on your page to look.
+*  For example, the sidebar has a "background" that makes it look gray.
+*  Feel free to look around.
+*/
+.sidebar {
+    position: fixed;
+    padding: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+.sidebar .account-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    color: #eaeaea;
+    background: rgba(0, 0, 0, 0.1);
+}
+.sidebar a:hover {
+    text-decoration: none !important;
+}
+
+.sidebar li {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+}
+.sidebar li.active {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.sidebar li:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    cursor: pointer;
+}
+.sidebar li span {
+    padding-left: 5px;
+}
+.sidebar img.logo {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
